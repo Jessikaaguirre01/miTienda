@@ -1,0 +1,70 @@
+*,
+*::before
+*::after{
+    margin: 0;
+}
+
+nav{
+    padding-top: 1rem;
+    background-color:#1b263b;
+    color:#eae0d5 ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.submenu{
+    margin-right: 15vw;
+    position: relative;
+}
+
+ul{
+    list-style: none;
+}
+
+.submenu #carrito{
+    display: none;
+    color: #001845;
+    margin-top: 1rem;
+}
+
+.submenu:hover #carrito{
+    display: block;
+    position: absolute;
+}
+
+.hero{
+    width: 100vw;
+}
+.hero img{
+    width: 100%;
+
+}
+.rebajado{
+    text-decoration: line-through;
+    color: #fdfdfd;
+}
+
+.full{
+    font-weight: bolder;
+    color: aliceblue;
+
+}
+
+.card-subtitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    height: 5rem;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    background-color: lightblue;
+    text-align: center;
+    
+}
+footer p{
+    font-size: 1.5rem;
+}
+
+
